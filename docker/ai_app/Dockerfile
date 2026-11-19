@@ -4,7 +4,7 @@
 #   docker build -f docker/ai_app/Dockerfile --target backend -t ai-app-backend:latest .
 #   docker build -f docker/ai_app/Dockerfile --target frontend -t ai-app-frontend:latest .
 #   docker build -f docker/ai_app/Dockerfile --target postgres -t ai-app-postgres:latest .
-# Load them into kind, then apply k8s/ai_app.
+# Load them into kind, then apply deployment/k8s/ai_app.
 
 FROM python:3.14-slim-bookworm AS backend
 

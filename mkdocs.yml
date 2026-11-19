@@ -1,0 +1,15 @@
+site_name: DevOps Handbook
+site_description: Local notes for the kind cluster and the ai-app deployment.
+docs_dir: docs
+theme:
+  name: readthedocs
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - Tool installation: tool-installation.md
+  - Kind: kind/setup.md
+  - Kubernetes:
+      - ai-app deployment: k8s/ai-app.md
+  - AI app:
+      - Requirements: ai-app/requirements.md
+      - Setup: ai-app/setup.md
